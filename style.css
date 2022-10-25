@@ -114,7 +114,7 @@
     animation: circle2 20s linear 0s infinite alternate;
 }
 
-/* @keyframes circle2 {
+@keyframes circle2 {
     0% {
         width: 20px;
         height: 20px;
@@ -157,4 +157,4 @@
         height: 500px;
         background-color: #04bcf4;
     }
-} */
+}

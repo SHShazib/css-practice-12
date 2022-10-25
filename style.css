@@ -110,7 +110,7 @@
 }
 .animation {
     background-color: #0eee6b;
-    animation: circle2 5s linear 0s infinite alternate;
+    animation: circle2 2s linear 0.5s alternate infinite none running;
 }
 
 @keyframes circle2 {

@@ -104,20 +104,19 @@
     width: 700px;
     height: 700px;
     margin-top: 100px;
-    border: 3px solid #000;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .animation {
     background-color: #0eee6b;
-    animation: circle2 20s linear 0s infinite alternate;
+    animation: circle2 5s linear 0s infinite alternate;
 }
 
 @keyframes circle2 {
     0% {
-        width: 20px;
-        height: 20px;
+        width: 10px;
+        height: 10px;
         border-radius: 50%;
         background-color: #000;
     }
@@ -148,8 +147,8 @@
         background-color: #000;
     }
     90% {
-        width: 500px;
-        height: 500px;
+        width: 400px;
+        height: 400px;
         background-color: #04bcf4;
     }
     100% {

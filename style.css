@@ -9,6 +9,7 @@ body{
     border-radius: 30px;
     width: 350px;
     height: 200px;
+    margin-top: 200px;
     color: #fff;
     background: linear-gradient(to left, red,yellow, green, blue, crimson);
 }

@@ -52,41 +52,41 @@
     color: #fff;
 }
 /* =======Overlay========== */
-.a {
+.a1,.a2,.a3,.a4,.a5,.a6 {
     margin: 50px 0;
     position: relative;
     width: 50%;
 }
-.a .img {
+.a1 .img,.a2 .img,.a3 .img,.a4 .img,.a5 .img,.a6 .img{
     width: 100%;
 }
-.b {
+.b1 ,.b2, .b3, .b4, .b5, .b6 {
     position: absolute;
-    
-    left: 0;
-    bottom: 0;
-
-    width: 0;
-    height:0 ;
     background-color: #04bcf4;
     opacity: 0;
-    transition: all .5s;
+    transition: all 2s;
 }
-.c {
+.c1 ,.c2, .c3, .c4, .c5, .c6{
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     font-size: 30px;
+    text-transform: uppercase;
     font-weight: bold;
     color: #fff;
     padding: 5px;
     border-radius: 5px;
 }
-.a:hover .b{
+/* =========Fade====== */
+.b1 {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.a1:hover .b1{
     opacity: 1;
-    height: 100%;
-    width: 100%;
 }
 
 

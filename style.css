@@ -1,4 +1,45 @@
-/* =======Gradient======= */
+/* ==========Tooltip========== */
+.t1 {
+    background-color: #0eee6b;
+    display: inline-block;
+    padding: 20px;
+    font-size: 30px;
+    position: relative;
+    margin-top: 50px;
+}
+.t1 .t2{
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    position: absolute;
+    margin: 10px;
+    border-radius: 5px ;
+    visibility: hidden;
+    word-wrap: no-wrap;
+    width: 150px;
+    z-index: 1;
+    top: 100%;
+    right: 0px;
+}
+.t1 .t2::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 45%;
+    border-width: 10px;
+    border-style: solid;
+    border-color:  transparent transparent black transparent ;
+}
+.t1:hover .t2{
+    visibility: visible;
+}
+
+
+
+
+
+
+
 
 
 /* ============2D Transform======== */
@@ -110,7 +151,7 @@
 }
 .animation {
     background-color: #0eee6b;
-    animation: circle2 2s linear 0.5s alternate infinite none running;
+    animation: circle2 2s linear 0.5s alternate infinite none paused;
 }
 
 @keyframes circle2 {
